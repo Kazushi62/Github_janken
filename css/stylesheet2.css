@@ -1,0 +1,128 @@
+body{
+  margin:0;
+  padding:0;
+  text-align:left;
+  font-size: 32px;
+}
+
+/* Header関連*/
+.title_all{
+  position: relative;
+}
+
+.title{
+  font-size: 48px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 7.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title_img{
+text-align: center;
+object-fit: cover;
+}
+
+/*Header終わり*/
+
+/*mainの戦い部分*/
+.character_set{
+  text-align: center;
+  font-size: 36px;
+
+}
+
+
+
+main{
+  border-bottom:1px solid #ccc;
+}
+footer{
+  background-color: #fff;
+  border-bottom:1px solid #ccc;
+  text-align: center;
+}
+
+
+
+
+/*２ぺーじめ*/
+
+
+ul{
+  padding: 0;
+  display:table;  /* 定義 */
+  table-layout: fixed;
+  width:100%;
+}
+li{
+  text-align: center;
+  list-style-type:none;
+  background-color: #FFF;
+  display:table-cell;  /* 定義 */
+}
+
+li{
+  cursor: pointer;
+}
+
+li:hover{
+  background: #0066CC;
+  color:#fff;
+}
+
+.vs{ 
+  margin: auto 100px;
+}
+
+
+
+.sentaku{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mikuru_shibata-{
+}
+
+.comments {
+  font-size: 50px;
+
+}
+
+
+.flexbox{
+  display: flex;
+}
+
+.select_character{
+  width:800px;
+  display: block;
+  margin: auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.counter{
+  margin: 100px;
+}
+
+
+.footer_btn{
+  color: #fff;
+  overflow: hidden;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #555;
+  padding: 10px 30px;
+  text-align: center;
+  outline: none;
+  transition: ease .5s;
+  background-color: rgb(250, 230, 114);
+
+}

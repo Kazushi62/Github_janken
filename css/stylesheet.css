@@ -1,0 +1,51 @@
+.title_all{
+  position: relative;
+}
+
+.title_img{
+  width: 100%;
+  text-align: center;
+}
+
+img{
+  width: 932px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  font-size: 36px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title_btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #fff;
+  overflow: hidden;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #555;
+  padding: 10px 30px;
+  text-align: center;
+  outline: none;
+  transition: ease .5s;
+  background-color: rgb(250, 230, 114);
+  
+}
+
+.title_btn:hover{
+  background:rgba(255, 255, 255, 0.3);
+}
+
+
